@@ -1,0 +1,29 @@
+@import '../utils/variables';
+
+.hero__title {
+    color: $color-primary-white;
+    letter-spacing: 0.06em;
+    font-weight: $font-weight-900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    width: 696px;
+}
+
+.hero {
+    background-color: $background-primary;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

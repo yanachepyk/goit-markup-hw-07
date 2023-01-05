@@ -1,0 +1,66 @@
+@import '../utils/variables';
+
+body {
+    color: $text-primary;
+    background-color: $color-primary-white;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    .subtitle {
+        font-size: 36px;
+        line-height: 1.16;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+
+        &.hidden {
+            display: none;
+        }
+    }
+}
+
+.text {
+    color: $text-secondary;
+}
+
+.work-examples__item,
+.team-cards__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-set {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

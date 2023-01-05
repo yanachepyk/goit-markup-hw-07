@@ -1,0 +1,31 @@
+@import '../utils/variables';
+
+
+.peculiarities__container-icon {
+    background-color: $background-secondary;
+    border-radius: 4px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.peculiarities__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.peculiarities__title {
+    font-size: 14px;
+    line-height: 1.14; 
+    margin-bottom: 10px;
+}
+
+.peculiarities__text {
+    font-weight: $font-weight-400;
+    font-size: 14px;
+    line-height: 1.71;
+}

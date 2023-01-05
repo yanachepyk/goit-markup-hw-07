@@ -1,0 +1,41 @@
+@import '../utils/variables';
+
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients__icon {
+    fill: $icon-primary;
+    transition-property: fill;
+    transition-duration:250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__link {
+    border: 1px solid $icon-primary;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration:250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 1px solid $color-accent;
+
+        .clients__icon {
+            fill: $color-accent;
+        }
+    }
+}
+
+
+
