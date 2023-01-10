@@ -240,12 +240,12 @@ a {
   color: #2196F3;
 }
 
-.header__logo {
+.logo--black {
   color: #000000;
   margin-right: 93px;
 }
 
-.footer__logo {
+.logo--white {
   color: #ffffff;
   display: block;
   margin-bottom: 20px;
@@ -360,7 +360,7 @@ a {
 
 /* Colors */
 /* Fonts */
-.header__contacts {
+.contacts--position {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,7 +429,7 @@ a {
   border-bottom: 1px solid #ECECEC;
 }
 
-.header__container {
+.container--header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,6 +480,9 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.site-nav__link:hover, .site-nav__link:focus {
+  color: #2196F3;
+}
 
 .site-nav__item {
   display: -webkit-box;
@@ -491,13 +494,13 @@ a {
   height: inherit;
 }
 
-.current {
+.curent--color {
   position: relative;
 }
-.current .site-nav__link {
+.curent--color .site-nav__link {
   color: #2196F3;
 }
-.current::after {
+.curent--color::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -506,10 +509,6 @@ a {
   border-radius: 2px;
   bottom: -1px;
   left: 0;
-}
-
-.site-nav__link:hover, .site-nav__link:focus {
-  color: #2196F3;
 }
 
 /* Colors */
@@ -538,7 +537,7 @@ a {
   margin: 0 auto;
 }
 
-.hero__container {
+.container--position {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -597,14 +596,12 @@ a {
 
 /* Colors */
 /* Fonts */
-.our-work {
+.work-examples {
   padding-top: 0;
 }
-
 .work-examples__item {
   position: relative;
 }
-
 .work-examples__text {
   font-weight: 700;
   font-size: 14px;
@@ -613,8 +610,7 @@ a {
   text-transform: uppercase;
   color: #ffffff;
 }
-
-.work-examples-desc {
+.work-examples__desc {
   background-color: rgba(47, 48, 58, 0.8);
   position: absolute;
   height: 70px;
@@ -695,29 +691,7 @@ a {
   background-color: #F5F4FA;
 }
 
-.team-cards__content {
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-cards__title,
-.team-cards__text {
-  font-size: 16px;
-  line-height: 1.2;
-}
-
-.team-cards__title {
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.team-cards__text {
-  font-weight: 400;
-}
-
-.team-cards__content {
+.team__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -732,6 +706,25 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 30px 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__title,
+.team-cards__text {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team__title {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.team__text {
+  font-weight: 400;
 }
 
 /* Colors */

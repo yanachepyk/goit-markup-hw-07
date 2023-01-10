@@ -4,7 +4,7 @@
     border-bottom: 1px solid $border-header;
 }
 
-.header__container {
+.container--header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,6 +35,11 @@
     transition-property: color;
     transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $color-accent;
+    }
 }
 
 .site-nav__item {
@@ -43,7 +48,7 @@
     height: inherit;
 }
 
-.current {
+.curent--color {
     position: relative;
 
     .site-nav__link {
@@ -62,10 +67,4 @@
     }
 }
 
-.site-nav__link {
-    &:hover,
-    &:focus {
-        color: $color-accent;
-    }
-}
 

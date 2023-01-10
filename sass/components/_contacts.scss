@@ -1,6 +1,6 @@
 @import '../utils/variables';
 
-.header__contacts {
+.contacts--position {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -32,7 +32,7 @@
     gap: 10px;
 }
 
-.contact__icon{
+.contact__icon {
     fill: $text-secondary;
     transition-property: fill;
     transition-duration:250ms;

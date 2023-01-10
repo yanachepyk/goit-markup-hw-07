@@ -10,15 +10,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header__container">
+      <div class="container container--header">
         <nav class="header__nav">
-          <a href="./index.html" class="logo header__logo"><span>Web</span>Studio</a>
+          <a href="./index.html" class="logo logo--black"><span>Web</span>Studio</a>
           <ul class="site-nav">
-            <li class="site-nav__item current">
+            <li class="site-nav__item curent--color">
               <a href="./index.html" class="site-nav__link">Студія</a>
             </li>
             <li class="site-nav__item">
@@ -29,7 +28,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts header__contacts">
+        <ul class="contacts contacts--position">
           <li>
             <a class="contacts__link contacts__link--primary" href="mailto:info@devstudio.com">
               <svg class="contact__icon" width="16" height="12">
@@ -51,7 +50,7 @@
     </header>
     <main>
       <section class="section hero">
-        <div class="container hero__container">
+        <div class="container container--position">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero__btn" type="button" data-modal-open>Замовити послугу</button>
         </div>
@@ -101,25 +100,25 @@
           </ul>
         </div>
       </section>
-      <section class="section our-work">
+      <section class="section work-examples">
         <div class="container">
           <h2 class="subtitle">Чим ми займаємося</h2>
-          <ul class="card-set work-examples">
+          <ul class="card-set ">
             <li class="work-examples__item">
               <img src="./images/our_work_1.jpg" alt="розробка програмного забезпечення" width="370" height="294" />
-              <div class="work-examples-desc">
+              <div class="work-examples__desc">
                 <p class="work-examples__text">Десктопні додатки</p>
               </div>
             </li>
             <li class="work-examples__item">
               <img src="./images/our_work_2.jpg" alt="адаптивний дизайн" width="370" height="294" />
-              <div class="work-examples-desc">
+              <div class="work-examples__desc">
                 <p class="work-examples__text">Мобільні додатки</p>
               </div>
             </li>
             <li class="work-examples__item">
               <img src="./images/our_work_3.jpg" alt="підбір кольорів бренду" width="370" height="294" />
-              <div class="work-examples-desc">
+              <div class="work-examples__desc">
                 <p class="work-examples__text">Дизайнерські рішення</p>
               </div>
             </li>
@@ -129,12 +128,12 @@
       <section class="section team">
         <div class="container">
           <h2 class="subtitle">Наша команда</h2>
-          <ul class="card-set team-cards">
-            <li class="team-cards__item">
+          <ul class="card-set team_list">
+            <li class="team__item">
               <img src="./images/team_member_1.jpg" class="team-cards__img" alt="дизайнер продукту" width="270" height="260" />
-              <div class="team-cards__content">
-                <h3 class="team-cards__title" >Ігор Дем'яненко</h3>
-                <p lang="en" class=" text team-cards__text">Product Designer</p>
+              <div class="team__content">
+                <h3 class="team__title" >Ігор Дем'яненко</h3>
+                <p lang="en" class=" text team__text">Product Designer</p>
                 <ul class="socials">
                   <li>
                     <a
@@ -173,11 +172,11 @@
                 </ul>
               </div>
             </li>
-            <li class="team-cards__item">
+            <li class="team__item">
               <img src="./images/team_member_2.jpg" class="team-cards__img" alt="фронтенд розробник" width="270" height="260" />
-              <div class="team-cards__content">
-                <h3 class="team-cards__title" >Ольга Рєпіна</h3>
-                <p lang="en" class=" text team-cards__text">Frontend Developer</p>
+              <div class="team__content">
+                <h3 class="team__title" >Ольга Рєпіна</h3>
+                <p lang="en" class=" text team__text">Frontend Developer</p>
                 <ul class="socials">
                   <li>
                     <a
@@ -216,11 +215,11 @@
                 </ul>
               </div>
             </li>
-            <li class="team-cards__item">
+            <li class="team__item">
               <img src="./images/team_member_3.jpg" class="team-cards__img" alt="маркетолог" width="270" height="260" />
-              <div class="team-cards__content">
-                <h3 class="team-cards__title" >Микола Тарасов</h3>
-                <p lang="en" class=" text team-cards__text">Marketing</p>
+              <div class="team__content">
+                <h3 class="team__title" >Микола Тарасов</h3>
+                <p lang="en" class=" text team__text">Marketing</p>
                 <ul class="socials">
                   <li>
                     <a
@@ -259,11 +258,11 @@
                 </ul>
               </div>
             </li>
-            <li class="team-cards__item">
+            <li class="team__item">
               <img src="./images/team_member_4.jpg" class="team-cards__img" alt="дизайнер юзер інтерфейсу" width="270" height="260" />
-              <div class="team-cards__content">
-                <h3 class="team-cards__title" >Михайло Єрмаков</h3>
-                <p lang="en" class=" text team-cards__text">UI Designer</p>
+              <div class="team__content">
+                <h3 class="team__title" >Михайло Єрмаков</h3>
+                <p lang="en" class=" text team__text">UI Designer</p>
                 <ul class="socials">
                   <li>
                     <a
@@ -358,7 +357,7 @@
     <footer class="footer">
       <div class="container footer__container">
         <div>
-          <a href="./index.html" class="logo footer__logo"><span>Web</span>Studio</a>
+          <a href="./index.html" class="logo logo--white"><span>Web</span>Studio</a>
           <address class="address">
             <a 
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
